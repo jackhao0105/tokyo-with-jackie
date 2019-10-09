@@ -1,0 +1,73 @@
+@media (max-width: 1200px){
+	.product-list{
+    	display: flex;
+   		flex-direction: column;
+   		justify-content: center;
+   		align-items: center;
+	}
+
+	.product{
+		margin-bottom: 30px;
+	}
+
+	.product .description {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.description .artist-name {
+    font-family: Bevan, cursive;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.description .price-product {
+    display: none;
+}
+
+
+
+@media (max-width: 650px){
+	.icon-wrapper{
+		display: flex;
+	}
+
+	.menu-no-responsive{
+		display: none;
+	}
+
+	.title h1{
+  		font-size: 2em;
+  		margin-bottom: 5px;
+  		color: crimson;
+	}
+
+	.wrapper-footer {
+	    display: grid;
+	    grid-template-columns: 1fr 1fr;
+	    grid-template-rows: 1fr 1fr;
+	    grid-column-gap: 35px;
+	    margin-top: 20px;
+	}
+
+
+	.wrapper-footer .column {
+	    font-size: 10px;
+	    text-align: left;
+	    padding-left: 10%;
+	    font-weight: normal;
+	}
+
+	footer{
+		margin-top: 20px;
+	}
+
+	footer .text{
+		font-size: 20px;
+	}
+
+}

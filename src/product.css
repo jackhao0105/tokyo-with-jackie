@@ -1,0 +1,58 @@
+.product  {
+  max-width: 360px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper-image-product{
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  width: 360px;
+  height: 450px;
+  align-items: center;
+  box-shadow: 4px 4px 12px 0 rgba(0, 0, 0, 0.12);
+}
+
+.wrapper-image-product:hover .image-product{
+ transform: scale3d(1.5,1.5,1.5);
+}
+
+
+.image-product{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: relative;
+  overflow: visible;
+  background-position: 50% 50%;
+  background-size: cover;
+  box-shadow: 1px 1px 3px 0 #938882;
+  transform:  scale3d(1, 1, 1);
+  transition: all 0.5s;
+}
+
+
+.product .description{
+  width: 80%;
+  display: flex;
+  margin: 6px auto;
+  text-align: center;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.description .artist-name{
+  font-family: 'Bevan', cursive;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+.description .price-product{
+  float: right;
+  font-size: 15px;
+  opacity: 0.6;
+}

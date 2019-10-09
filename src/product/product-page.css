@@ -1,0 +1,102 @@
+.group{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 80px;
+  margin: 5em 0;
+}
+
+.right-column{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: center;
+}
+
+
+.wrapper-product{
+  display: flex;
+  max-height: 600px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  width: 100%;
+  background-color: antiquewhite;
+  border-radius: 10px;
+}
+
+.product{
+  margin: 0 auto;
+  max-width: 360px;
+  width: 100%; 
+}
+
+.wrapper-image-product{
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+  overflow: hidden;
+  width: 360px;
+  height: 480px;
+  align-items: center;
+  box-shadow: 4px 4px 12px 0 rgba(0, 0, 0, 0.12);
+}
+
+.wrapper-image-product:hover .image-product{
+ transform: scale3d(1.5,1.5,1.5);
+}
+
+
+.image-product{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: relative;
+  overflow: visible;
+  background-position: 50% 50%;
+  background-size: cover;
+  box-shadow: 1px 1px 3px 0 #938882;
+  transform:  scale3d(1, 1, 1);
+  transition: all 0.5s;
+}
+
+
+.artist-name{
+  font-family: 'Bevan', cursive;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.price-product{
+  margin: 10px 0;
+  font-size: 20px;
+  opacity: 0.6;
+}
+
+.introdution .name{
+  font-weight: bold;
+}
+
+.right-column .btt{
+  max-width: 150px;
+  width: 100%;
+  height: 30px;
+  color: #fff;
+  background-color: #000;
+}
+
+.right-column .number{
+  width: 40px;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  margin-right: 0;
+  margin-left: 2%;
+}
+
+.right-column .number[value]{
+ text-align: center;
+}
+
+.right-column .group-check{
+  display: flex;
+}
+
